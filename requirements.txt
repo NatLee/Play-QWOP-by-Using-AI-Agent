@@ -1,0 +1,7 @@
+tensorflow==2.0.0
+tqdm
+selenium
+pytesseract
+pynput
+numpy
+opencv-python
