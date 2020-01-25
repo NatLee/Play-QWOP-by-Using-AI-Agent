@@ -68,18 +68,19 @@ You can only test with the pretrained-model, but it may make some mistakes. ;)
 
 ```
 usage: main.py [-h] [--train TRAIN] [--model_path MODEL_PATH]
-               [--model_save_path MODEL_SAVE_PATH] [--test_env TEST_ENV] [--chrome_driver_path CHROME_DRIVER_PATH]
+               [--model_save_path MODEL_SAVE_PATH] [--test_env TEST_ENV]
+               [--chrome_driver_path CHROME_DRIVER_PATH]
 ```
 
-> `--train`: Training the model. The input should be either "True" or "False".
+`--train`: Training the model. The input should be either "True" or "False".
 
-> `--model_path`: Model weights path. If you assign a path, the model will load the weights.
+`--model_path`: Model weights path. If you assign a path, the model will load the weights.
 
-> `--model_save_path`: Model save path. If you have not specific, the model won't be saved.
+`--model_save_path`: Model save path. If you have not specific, the model won't be saved.
 
-> `--test_env`: Use random action to test QWOP environment. The input should be either "True" or "False".
+`--test_env`: Use random action to test QWOP environment. The input should be either "True" or "False".
 
-> `--chrome_driver_path`: Specific your chrome driver path to run the selenium.
+`--chrome_driver_path`: Specific your chrome driver path to run the selenium.
 
 ## Results
 
@@ -115,7 +116,7 @@ Such as a method like Gym from OpenAI can have immediate feedback. In this way, 
 
 There is also something like training the model with positions from the charater. This may also make the effect better.
 
-## Refferences
+## References
 
 [juanto121/qwop-ai](https://github.com/juanto121/qwop-ai)
 
